@@ -7,19 +7,23 @@
 		<meta http-http-equiv="X-UA-Compatible" content="ie=edge">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-		<title>Торговый центр WestPlus</title>
+		<title>Контактная форма WestPlus</title>
 	</head>
 	<body>
 
  <!-- шапка -->
     <?php require "blocks/header.php" ?>
+    <div class="container mt-5">
 
+
+<h3>Контактная форма</h3>
 <!-- mail -->
 <form  action="check.php" method="post">
-  <input type="email" name="email" placeholder="Введите email" class="form-control">
-  <textarea name="message" class="form-control" placeholder="Введите ваше сообщение"></textarea>
+  <input type="email" name="email" placeholder="Введите email" class="form-control"><br>
+  <textarea name="message" class="form-control" placeholder="Введите ваше сообщение"></textarea><br>
+  <button type="submit" name="send" class="btn btn-success">Отправить</button>
 </form>
-
+</div>
     <?php require "blocks/footer.php" ?>
 
 
