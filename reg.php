@@ -28,6 +28,8 @@
           id="name" placeholder="Введите имя"><br>
           <input type="password" class="form-control" name="pass"
           id="pass" placeholder="Введите пароль"><br>
+          <input type="password" class="form-control" name="pass2"
+          id="pass" placeholder="Повторите пароль"><br>
           <button class="btn btn-success" type="submit">Зарегистрировать</button>
         </form>
       </div>
