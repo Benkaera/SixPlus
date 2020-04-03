@@ -16,10 +16,12 @@
 
 <div class="container mt-5">
 
-<h3 class="mb-5">Наша Статья</h3>
+
 
 <!-- Добро пожаловать надпись блок -->
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+	<h3 class="mb-4">Сайт создал Кузнецов С.Н.</h3>
+	<h1 class="display-4"><?=$_COOKIE['user']?></h1>
   <h1 class="display-4">Добро пожаловать</h1>
   <p class="lead">Просматривайте товары, следите за акциями и скидками. Мы работаем, вы отдыхаете. 17 заговора не существует</p>
 </div>

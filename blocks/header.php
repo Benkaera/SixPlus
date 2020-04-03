@@ -7,10 +7,10 @@
 <a class="p-2 text-dark" href="#">Товары</a>
   </nav>
 <?php
-if($COOKIE ['user'] == 'Да'):
+if($COOKIE ['user'] == $user['name']):
 ?>
-<a class="btn btn-outline-primary" href="/auth.php">Кабинет пользователя</a>
+<a class="btn btn-outline-primary" href="/reg.php">Кабинет пользователя</a>
 <?php else: ?>
-<a class="btn btn-outline-primary" href="/reg.php">Вход</a>
+<a class="btn btn-outline-primary" href="/reg.php">Войти</a>
 <?php endif; ?>
 </div>

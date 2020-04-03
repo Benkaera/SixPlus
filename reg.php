@@ -14,7 +14,10 @@
  <!-- шапка -->
     <?php require "blocks/header.php" ?>
     <div class="container mt-5">
-
+      <?php
+      if($_COOKIE['user'] == ''):
+      ?>
+<!-- если куки не установлены -->
       <div class="row">
       <div class="col">
         <h3>Регистрация</h3>
@@ -39,9 +42,13 @@
           <button class="btn btn-success" type="submit">Войти</button>
         </form>
       </div>
+<?php else: ?>
+  <p>Привет <?=$_COOKIE['user']?>. Чтобы выйти нажмите здесь
+  <a href="/exit.php">Выход</a>.</p>
+<?php endif;?>
     </div>
 
-</div>
+  </div>
     <?php require "blocks/footer.php" ?>
 
 
