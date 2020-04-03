@@ -15,18 +15,31 @@
     <?php require "blocks/header.php" ?>
     <div class="container mt-5">
 
+      <div class="row">
+      <div class="col">
+        <h3>Регистрация</h3>
+        <form  action="checkreg.php" method="post">
+          <input type="text" class="form-control" name="login"
+          id="login" placeholder="Введите логин"><br>
+          <input type="text" class="form-control" name="name"
+          id="name" placeholder="Введите имя"><br>
+          <input type="password" class="form-control" name="pass"
+          id="pass" placeholder="Введите пароль"><br>
+          <button class="btn btn-success" type="submit">Зарегистрировать</button>
+        </form>
+      </div>
 
-<h3>Вход и регистрация</h3>
-<form  action="" method="post">
-  <input type="text" class="form-control" name="login"
-  id="login" placeholder="Введите логин"><br>
-  <input type="text" class="form-control" name="name"
-  id="name" placeholder="Введите имя"><br>
-  <input type="password" class="form-control" name="pass"
-  id="pass" placeholder="Введите пароль"><br>
-  <button class="btn btn-success">Зарегистрировать</button>
-
-</form>
+      <div class="col">
+        <h3>Авторизация</h3>
+        <form  action="auth.php" method="post">
+          <input type="text" class="form-control" name="login"
+          id="login" placeholder="Введите логин"><br>
+          <input type="password" class="form-control" name="pass"
+          id="pass" placeholder="Введите пароль"><br>
+          <button class="btn btn-success" type="submit">Войти</button>
+        </form>
+      </div>
+    </div>
 
 </div>
     <?php require "blocks/footer.php" ?>
