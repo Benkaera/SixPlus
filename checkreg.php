@@ -28,7 +28,7 @@ else if($_POST['pass'] != $_POST['pass2'] ){
 $pass = md5($pass."ueirhksdhg333");
 
 // БД
-$mysql = new mysqli('localhost','root','root','register-bd');
+$mysql = new mysqli('localhost','mrmops029_bd2','765238aA','mrmops029_bd2');
 $mysql->query("INSERT INTO `users` (`login`,`pass`,`name`)
 VALUES('$login', '$pass', '$name')");
 
