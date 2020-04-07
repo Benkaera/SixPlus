@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 		<title>Страница входа</title>
 	</head>
-	<body>
+	<body style="background-color: #ebebeb;">
 
  <!-- шапка -->
     <?php require "blocks/header.php" ?>

@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 		<title>Контактная форма WestPlus</title>
 	</head>
-	<body>
+	<body style="background-color: #ebebeb;">
 
  <!-- шапка -->
     <?php require "blocks/header.php" ?>
@@ -17,6 +17,7 @@
 
 
 <h3>Контактная форма</h3>
+<h4>Напишите свой отзыв, предложение и мы его обязательно прочитаем</h4>
 <!-- mail -->
 <form  action="check.php" method="post">
   <input type="email" name="email" placeholder="Введите email" class="form-control"><br>
