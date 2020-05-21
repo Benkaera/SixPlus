@@ -5,17 +5,31 @@
 		<!-- /Сжатие сайта для мобильных устройств -->
 		<meta name="viewport" content="width=device-width , initial-scale=1.0">
 		<meta http-http-equiv="X-UA-Compatible" content="ie=edge">
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/style.css<?php echo $template;?>" type="text/css" media="screen"/>
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		
+		
+		
 		<title>Торговый центр WestPlus</title>
+		<script src="js/script.js"></script>
 	</head>
 	<body style="background-color: #ebebeb;">
 
 <!-- шапка -->
 	<?php require "blocks/header.php" ?>
+		<?php require "blocks/vision.php" ?>
+
+
+
+		
+		
+
+
+
+
 
 <div class="container mt-5">
 
@@ -26,7 +40,8 @@
 	<h3 class="mb-1">WestPlus</h3>
 	<h1 class="display-4"><?=$_COOKIE['user']?></h1>
   <h1 class="display-4 font-weight-bold">Добро пожаловать</h1>
-  <p class="lead font-weight-bold">Просматривайте товары, следите за акциями и скидками. Мы работаем, вы отдыхаете. 17 заговора не существует</p>
+  <div class="some-text"><p1>Просматривайте товары, следите за акциями и скидками. Мы работаем, вы отдыхаете. 17 заговора не существует</p1></div>
+  
 </div>
 
 <div class="d-flex flex-wrap">
@@ -34,8 +49,11 @@
 for($i = 0; $i < 5; $i++):
 ?>
 
-<!-- блок1 -->
+<!-- блок1-5 -->
 <div class="card mb-4 shadow-sm text-black bg-light ">
+     
+     <div class="some-text">
+     
       <div class="card-header">
         <h4 class="my-0 font-weight-normal">Блок <?php  echo ($i+1) ?></h4>
       </div>
@@ -50,13 +68,14 @@ for($i = 0; $i < 5; $i++):
         </ul>
         <button type="button" class="btn btn-lg btn-block btn-outline-primary text-black">Тык</button>
       </div>
-    </div>
+    </div></div>
     
 	<?php endfor; ?>
 	
 	
-<!-- блок1 -->
+<!-- блок6 -->
 <div class="card mb-4 shadow-sm text-black bg-light ">
+    <div class="some-text">
       <div class="card-header">
         <h4 class="my-0 font-weight-normal">Блок <?php  echo (6) ?></h4>
       </div>
@@ -71,7 +90,7 @@ for($i = 0; $i < 5; $i++):
         </ul>
         <button type="button" class="btn btn-lg btn-block btn-outline-primary text-black">Кнопка</button>
       </div>
-    </div>
+    </div></div>
 	
 </div>
 

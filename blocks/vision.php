@@ -1,0 +1,6 @@
+<div class="vision-control">
+<span class="lv-fonts">Шрифт_<span class="lv-fonts-1 icon-lw"><a href="#" name="re_size" ; style="font-size:15px">A</a></span><span class="lv-fonts-2 icon-lw"><a href="#" name="re_size" ; style="font-size:20px">A</a></span><span class="lv-fonts-3 icon-lw"><a href="#" name="re_size" ; style="font-size:25px">A</a></span></span>
+<span class="lv-intervals">Интервал<span class="lv-intervals-1 icon-lw"><a href="#" name="re_size" ; style="font-size:20px">| |  </a></span><span class="lv-intervals-2 icon-lw"><a href="#" name="re_size" ; style="font-size:20px">|_|</a></span><span class="lv-intervals-3 icon-lw"><a href="#" name="re_size" ; style="font-size:20px">|___|</a></span></span>
+<span class="lv-colors">Цвет<span class="lv-colors-1 icon-lw"> <a href="#" name="re_size" ; style="font-size:20px"> 1 </a> </span><span class="lv-colors-2 icon-lw"> <a href="#" name="re_size" ; style="font-size:20px"> 2 </a> </span><span class="lv-colors-3 icon-lw"> <a href="#" name="re_size" ; style="font-size:20px"> 3 </a> </span></span>
+<span class="lv-undo"><a href="#" name="re_size" ; style="font-size:20px">  [СБРОСИТЬ]  </a><i class="fa fa-undo" aria-hidden="true"></i></span>
+</div>

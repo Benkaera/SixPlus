@@ -8,12 +8,15 @@
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 		<title>Контактная форма WestPlus</title>
+		<script src="js/script.js"></script>
 	</head>
 	<body style="background-color: #ebebeb;">
 
  <!-- шапка -->
     <?php require "blocks/header.php" ?>
+    	<?php require "blocks/vision.php" ?>
     <div class="container mt-5">
+        <div class="some-text">
 
 
 <h3>Контактная форма</h3>
@@ -24,7 +27,7 @@
   <textarea name="message" class="form-control" placeholder="Введите ваше сообщение"></textarea><br>
   <button type="submit" name="send" class="btn btn-success">Отправить</button>
 </form>
-</div>
+</div></div>
     <?php require "blocks/footer.php" ?>
 
 

@@ -1,4 +1,5 @@
 <?php
+header("Content-Type: text/html; charset=utf-8");
 // глобальный массив пост
 //print_r($_POST);
 $email = $_POST['email'];
